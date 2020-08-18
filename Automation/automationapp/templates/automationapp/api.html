@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+  </head>
+  <body>
+
+
+<div class="container card mt-5 color">
+
+<h1 class="head mt-5 text_shadows ">API Testing</h1>
+<h5 class="white mt-5 ">Test Automation:</h5>
+  <ul >
+    <li class="list">Test automation is faster, more precise and allows quicker releases.</li><br>
+    <li class="list">All testing processes (functional, performance, etc) can be automated</li><br>
+    <li class="list">Test automation efficiency lies in choice of reusable and scalable testing tools & frameworks</li><br>
+    <li class="list">Automation of testing processes is the foundation and minimum requirement of CD/CI and DevOps</li><br>
+  </ul>
+
+  <h5 class="white mt-5 ">Automated API Testing :</h5>
+    <p class="para">Service Layer Testing  the business logic and make sure it meets the requirements.If you are used to manual testing, you probably expect to have a user interface in order to test the application. However, in the software world testing can be done by interacting with the application via its API. The service layer provides a very well defined semantic which can be used for testing the business logic of an application. By taking advantage of this, you can create a set of automated tests that can reliably validate this area of your application and be very cost effective.</p>
+
+<div class="container mt-5 mb-5">
+  <a href="{%url 'index' %}"  class="btn btn-lg btn-primary">Back to home page</a>
+</div>
+
+</div>
+</body>
+</html>

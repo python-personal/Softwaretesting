@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+  </head>
+  <body>
+
+
+<div class="container card mt-5 color">
+
+<h1 class="head mt-5 text_shadows ">Performance Testing</h1>
+
+  <p class="para mt-5">Web Performance Testing is executed to provide accurate information on the readiness of an application through testing the web site and monitoring the server side application. This is done by simulating load as close as possible to the real conditions in order to evaluate if the application will support the expected load. That allows you to guarantee system performances and to identify and help in fixing possible issues identifying, possible bottlenecks and providing useful advice about how to fix problems (tuning of system parameters, modification of software or hardware upgrade).</p>
+
+
+
+  <h1 class="head mt-5 text_shadows ">Types</h1>
+
+<h5 class="white mt-5 ">Smoke Test:</h5>
+<p class="para">A simple quick test, to check if the application is really ready to be tested This is not normally mentioned, but without it, much time and resources are wasted.</p>
+<h5 class="white mt-5 ">Load Test:</h5>
+
+<p class="para"> This is the simplest form of performance testing. A load test is usually conducted to understand the behavior of the application under a specific expected load</p>
+<h5 class="white mt-5 ">Stress:</h5>
+
+<p class="para">This testing is normally used to break the application. Double the number of users is added to the application and the test is run again until the application breaks down</p>
+<h5 class="white mt-5 ">Spike Test:</h5>
+
+<p class="para">Spike testing, as the name suggests is done by spiking the number of users and understanding the behavior of the application whether it will go down or will it be able to handle dramatic changes in load.</p>
+<h5 class="white mt-5 ">Endurance Testing (Soak Testing): </h5>
+
+<p class="para"> This test is usually done to determine if the application can sustain the continuous expected load. Generally this test is done to determine if there are any memory leaks in the application.</p>
+
+
+<div class="container mt-5 mb-5">
+  <a href="{%url 'index' %}"  class="btn btn-lg btn-primary">Back to home page</a>
+</div>
+
+</div>
+</body>
+</html>

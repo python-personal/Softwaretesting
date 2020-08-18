@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+  </head>
+  <body>
+
+
+<div class="container card mt-5 color">
+
+<h1 class="head mt-5 text_shadows ">Functional Testing</h1>
+<h5 class="white mt-5 ">Exploratory testing:</h5>
+  <ul >
+    <li class="list">Exploratory testing considers testing from an end user’s perspective, focusing on key user journeys and the user experience throughout the software.</li><br>
+    <li class="list">As well as positive user flows, testers conduct disruptive and edge case testing and will employ out-of-the-box thinking to attempt to break the application.</li><br>
+  </ul>
+
+  <h5 class="white mt-5 ">Scripted testing:</h5>
+    <ul >
+      <li class="list">An in-depth documented approach to manual testing where test suites are generated containing test cases addressing each of the functional requirements of a piece of software. A scripted approach ensures the test process is measurable, traceable and repeatable.</li><br>
+      <li class="list">As well as Pass/Fail results for all tests, our team have created test script documentation that intelligently generates metrics and stats for your project to allow you to gain a useful snapshot of the stability of your application when under test.</li><br>
+      <li class="list">Functional testing ensures that the features and functionality of the application under test function and operate as intended.</li><br>
+
+
+    </ul>
+
+          <h5 class="white mt-5 ">Verification:</h5>
+          <p class="para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verify that the application features behave correctly and without error for the end user.</p>
+          <h5 class="white mt-5 ">Validation:</h5>
+          <p class="para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Validate that features meet the business requirements defined by the client and key stakeholders.</p>
+
+
+<div class="container mt-5 mb-5">
+  <a href="{%url 'index' %}"  class="btn btn-lg btn-primary">Back to home page</a>
+</div>
+
+</div>
+</body>
+</html>

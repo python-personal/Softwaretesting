@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+  </head>
+  <body>
+<div class="container card mt-5 color">
+
+<h1 class="head mt-5" >Integration Testing</h1>
+<p class="mt-5 para">Once all the individual units are created and tested, we start combining those tested modules and start performing the integrated testing. The main goal here is to test the interfaces between the units/modules.</p>
+
+<p class="mt-2 para">Our Simple but Robust Solution towards Integration Testing:</p><br>
+  <ul >
+    <li class="list">Prepare the test integration plan</li><br>
+    <li class="list">Decide on the type of integration testing approach</li><br>
+    <li class="list">Design test cases, test scenarios and test scripts accordingly.</li><br>
+    <li class="list">Deploy the chosen modules together and get the integration tests running.</li><br>
+    <li class="list">Track the defects and record the test results of tests.</li><br>
+
+  </ul>
+  <p class='para mt-2'>Repeat the above steps until the complete system is tested</p><br>
+
+<h3>Approach:</h3>
+<h6 style="text-align:left;color:red">Incremental Approach:</h6><br>
+<p class='para'>Incremental Testing is performed by connecting two or more modules together that are logically related. Later more modules are added and tested for proper functionality. This is done until all the modules are integrated and tested successfully. Using Top Down / Bottom Up / Sandwich testing method.</p>
+<br>
+<h6 style="text-align:left;color:red">Big Bang Approach:</h6><br>
+
+<p class='para'>In this testing approach, once all the modules are developed and tested individually, they are integrated once and tested together at once. The only advantage of this type of testing is that it is very much suitable for smaller systems. Using Top Down / Bottom Up / Sandwich testing method.</p><br>
+<div class="container mt-5 mb-5">
+  <a href="{%url 'index' %}"  class="btn btn-lg btn-primary">Back to home page</a>
+</div>
+
+</div>
+
+
+  </body></html>
